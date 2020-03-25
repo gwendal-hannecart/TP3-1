@@ -5,7 +5,11 @@ function repeatTest(){
     console.log(repeat("Oui, ça marche ! ", 1))
     console.log(truncate("truncated text", 10)); 
     console.log(isPalindrome("bonjour")); 
-console.log(isPalindrome("toto")); 
-console.log(isPalindrome("kayak")); 
-console.log(isPalindrome("ressasser")); 
+    console.log(isPalindrome("toto")); 
+    console.log(isPalindrome("kayak")); 
+    console.log(isPalindrome("ressasser")); 
+    console.log(swapCase("HELLO")); 
+    console.log(swapCase("bye")); 
+    console.log(swapCase("GooD NighT")); 
+
 }

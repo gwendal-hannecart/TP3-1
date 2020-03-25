@@ -38,4 +38,21 @@ function isPalindrome(s){
     }
 }
 
-
+function swapCase(s){
+    if(s !=undefined){
+        let k=s.length;
+        let i=0;
+        let result="";
+        for(i=0;i<k;i++){
+            sequence=s[i];
+            if(sequence>="A" && sequence<="Z"){
+                    result=result+sequence.toLowerCase();
+            }
+            else{
+                result=result+sequence.toUpperCase();
+            }
+            
+        }
+    return result;
+    }
+}
