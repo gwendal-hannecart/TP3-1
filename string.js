@@ -27,7 +27,7 @@ function truncate(s, n){
 
 function isPalindrome(s){
     if(s !=undefined){
-        let k=s.length(s);
+        let k=s.length;
         let i=0;
         for(i=0;i<Math.trunc(k/2);i++){
             if(s[i] !=s[k-1-i]){
@@ -37,3 +37,5 @@ function isPalindrome(s){
     return true;
     }
 }
+
+
